@@ -97,7 +97,7 @@ const ProductDetails = () => {
     <div
       className={`max-w-screen-bs h-[calc(100vh-6rem)] ${
         details.fotos && details.fotos.length > 1
-          ? "h-full"
+          ? "sm:h-full"
           : "sm:h-[calc(100vh-7rem)]"
       } m-auto flex flex-col items-center animate-slide-left`}
     >

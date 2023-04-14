@@ -72,7 +72,7 @@ const ProductDetails = () => {
     );
   } else if (data) {
     main = (
-      <main className='w-full h-full flex flex-col sm:flex-row gap-1 sm:gap-9'>
+      <main className='w-full h-full flex flex-col sm:flex-row gap-1 sm:gap-9 animate-slide-left'>
         <div className='flex flex-row sm:flex-col gap-2 sm:gap-10'>
           {details.fotos &&
             details.fotos.map((foto, index) => (
@@ -99,7 +99,7 @@ const ProductDetails = () => {
         details.fotos && details.fotos.length > 1
           ? "sm:h-full"
           : "sm:h-[calc(100vh-7rem)]"
-      } m-auto flex flex-col items-center animate-slide-left`}
+      } m-auto flex flex-col items-center`}
     >
       <Head
         title={`Ranek | ${!loading ? details.nome : ""}`}

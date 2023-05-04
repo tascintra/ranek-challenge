@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import ErrorMsg from "../styles/ErrorMsg"
 import useAxios from "../hooks/useAxios";
-import Head from "../hooks/Head";
+import Head from "../components/Head";
 import Product from "../components/Product";
 import Spin from "../components/Spin";
 import Footer from "../components/Footer";

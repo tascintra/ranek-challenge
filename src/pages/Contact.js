@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "../hooks/Head";
+import Head from "../components/Head";
 import styled from "styled-components";
 import responsive from "../styles/Responsive";
 import Title from "../styles/Title";

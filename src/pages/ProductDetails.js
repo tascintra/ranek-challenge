@@ -4,7 +4,7 @@ import styled from "styled-components";
 import responsive from "../styles/Responsive";
 import ErrorMsg from "../styles/ErrorMsg";
 import Title from "../styles/Title";
-import Head from "../hooks/Head";
+import Head from "../components/Head";
 import useAxios from "../hooks/useAxios";
 import Footer from "../components/Footer";
 import Spin from "../components/Spin";

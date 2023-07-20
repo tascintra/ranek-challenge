@@ -23,7 +23,7 @@ A Origamid React challenge.
 <br>
 
 <p align="center">
-  <img alt="Notifications page project screenshot" src="./public/desktop-preview.png" width="100%">
+  <img alt="Ranek page project screenshot" src="./public/desktop-preview.png" width="100%">
 </p>
 
 <br>
